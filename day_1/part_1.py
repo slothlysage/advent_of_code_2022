@@ -14,4 +14,4 @@ for line in input:
 print(max(elves))
 
 # one liner
-print(max([sum(list(map(int, i.split('\n')))) for i in open('puzzle_input', 'r').read().strip('\n').replace("\n\n", " ").split(' ') if i != '']))
+print(max([sum(list(map(int, i.split('\n')))) for i in open('puzzle_input', 'r').read().strip('\n').replace("\n\n", " ").split(' ')]))
