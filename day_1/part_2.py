@@ -15,4 +15,4 @@ elves.sort(reverse=True)
 print(sum(elves[:3]))
 
 # one liner
-print(sum(sorted([sum(list(map(int, i.split('\n')))) for i in open('puzzle_input', 'r').read().strip('\n').replace("\n\n", " ").split(' ')])[-3:]))
+print(sum(sorted([sum(list(map(int, i.split('\n')))) for i in open('puzzle_input', 'r').read().strip('\n').split("\n\n")])[-3:]))
